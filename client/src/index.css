@@ -3,10 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global app background */
 html, body, #root {
   height: 100%;
-  background: #0f172a; /* deep blue */
+  background: #020617; /* even deeper blue for SaaS look */
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
