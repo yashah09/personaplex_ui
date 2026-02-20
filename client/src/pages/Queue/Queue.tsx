@@ -52,7 +52,7 @@ const Homepage = ({
   setVoicePrompt,
 }: HomepageProps) => {
   return (
-    <div className="text-center h-screen w-screen p-4 flex flex-col items-center pt-8">
+    <div className="text-center h-screen w-screen p-4 flex flex-col items-center pt-8 bg-[#0f172a]">
       <div className="mb-6">
         <h1 className="text-4xl text-black">PersonaPlex</h1>
         <p className="text-sm text-gray-600 mt-2">
